@@ -26,7 +26,7 @@ class AAIC(unittest.TestCase):
 		driver.get("https://appliedaiconsulting.com/")
 		
 		# assertion to confirm if web page has Cloud and DevOps keyword in it
-		self.assertIn("Digital Engineering | Cloud Native Development | Cloud and DevOps | Website Development", driver.title)
+		self.assertIn("Digital Engineering | Cloud Native Development | Cloud and DevOps", driver.title)
 		#driver.get_screenshot_as_file("ss.jpg")
 		#driver.get_screenshot_as_file("report/ss.jpg")
 		driver.save_screenshot("ss1.png")
