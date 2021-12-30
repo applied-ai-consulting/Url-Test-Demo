@@ -36,10 +36,10 @@ class AAIC(unittest.TestCase):
 		#time.sleep(1)
 		#driver.save_screenshot("report/ss2.png")
 		
-		driver.find_element_by_id("impliedsubmit").click()
-		time.sleep(1)
-		driver.save_screenshot("ss2.png")
-		driver.save_screenshot("report/ss2.png")
+		# driver.find_element_by_id("impliedsubmit").click()
+		# time.sleep(1)
+		# driver.save_screenshot("ss2.png")
+		# driver.save_screenshot("report/ss2.png")
 
 	# cleanup method called after every test performed
 	def tearDown(self):
