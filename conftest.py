@@ -19,7 +19,7 @@ def pytest_runtest_makereport(item, call):
         if (report.skipped and xfail) or (report.failed and not xfail):
             # only add additional html on failure
             #extra.append(pytest_html.extras.image("/opt/app/report/ss3.png"))
-            extra.append(pytest_html.extras.image("/opt/app/runscript/report/ss2.png"))
-            extra.append(pytest_html.extras.image("/opt/app/runscript/report/ss1.png"))
+            extra.append(pytest_html.extras.image("report/ss2.png"))
+            extra.append(pytest_html.extras.image("report/ss1.png"))
             extra.append(pytest_html.extras.html("<div>Additional HTML</div>"))
         report.extra = extra
